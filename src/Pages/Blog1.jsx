@@ -1,7 +1,7 @@
 export default function Blogitem() {
   return (
     <div>
-<link rel="stylesheet" href="./template/css/page__blog.css" />
+      <link rel="stylesheet" href="./template/css/page__blog.css" />
       {/* <div
         className="tt-breadcrumb"
         style={{
@@ -25,8 +25,7 @@ Explore Our Electrical and Security Services</b></li>
             <div className="row">
               <div className="col-12 col-sm-12 col-md-12">
                 <div className="blog-single">
-                  
-                  <div className="blog-single__wrapper" >
+                  <div className="blog-single__wrapper">
                     <div className="blog-single__data">
                       <div className="tt-col">
                         <div className="data__time">6 May, 2020</div>
@@ -36,18 +35,14 @@ Explore Our Electrical and Security Services</b></li>
                           Posted by: <a href="#">Admin</a>
                         </div>
                       </div>
-                      
                     </div>
                     <h1 className="blog-single__title">
                       Enhancing Safety and Efficiency: Explore Our Electrical
                       and Security Services
                     </h1>
                     <div className="blog-single__img">
-                    <img
-                      src="./template/images/blog/blog_img01_large.jpg"
-                      alt
-                    />
-                  </div>
+                      <img src="./template/images/Projects/proj5.jpg" alt />
+                    </div>
                     <h2 className="blog-single__subtitle blog-single__subtitle-top">
                       Home Electrical Repair
                     </h2>
@@ -62,9 +57,9 @@ Explore Our Electrical and Security Services</b></li>
                       undertake.
                     </p>
                     <br />
-    
+
                     <h1>Our Expertise in Electrical Services</h1>
-              
+
                     <p>
                       From residential homes to large industrial complexes, our
                       team of skilled electricians specializes in a range of
@@ -96,9 +91,9 @@ Explore Our Electrical and Security Services</b></li>
                         </ul>
                       </div>
                     </div>
-          
+
                     <h1>Empowering Security with Cutting-Edge Solutions:</h1>
-            
+
                     <p>
                       At Popular Electrical & Security Services, we understand
                       the importance of protecting what matters most. Our
@@ -131,10 +126,10 @@ Explore Our Electrical and Security Services</b></li>
                     <div className="tt-col-img__top">
                       <div className="row tt-col-img">
                         <div className="col-sm-6">
-                          <img src="./template/images/services_img02.jpg" alt />
+                          <img src="./template/images/Projects/proj6.jpg" alt />
                         </div>
                         <div className="col-sm-6">
-                          <img src="./template/images/services_img03.jpg" alt />
+                          <img src="./template/images/Projects/proj7.jpg" alt />
                         </div>
                       </div>
                     </div>
@@ -154,38 +149,38 @@ Explore Our Electrical and Security Services</b></li>
                     </p>
                     <div className="blog-single__meta">
                       <div className="tt-col">
-                        <ul className="tt-list02">
-                          <li>
-                            <a href="#">Electrical</a>
-                          </li>
-                          <li>
-                            <a href="#">Upgrades</a>
-                          </li>
-                          <li>
-                            <a href="#">Repairs</a>
-                          </li>
-                        </ul>
+                        <a href="tel:+917972144809" style={{ color: "black" }}>
+                          <span className="icon-telephone"></span>
+                          <b>+91 7972 144 809</b>
+                        </a>
                       </div>
                       <div className="tt-col">
                         <ul className="tt-social">
                           <li>
-                            <a href="#" className="icon-twitter-logo-button" />
+                            <a
+                              href="https://x.com/Popular4u_in?t=UcIT14BKpBOwGpe8nJjxVA&s=09"
+                              className="icon-twitter-logo-button"
+                            />
                           </li>
                           <li>
-                            <a href="#" className="icon-facebook-logo-button" />
+                            <a
+                              href="https://www.facebook.com/share/dEUURYQZzdhZs1aL/?mibextid=qi2Omg"
+                              className="icon-facebook-logo-button"
+                            />
                           </li>
                           <li>
-                            <a href="#" className="icon-instagram-logo" />
+                            <a
+                              href="https://www.instagram.com/popular4u.in?utm_source=qr&igsh=MzNlNGNkZWQ4Mg=="
+                              className="icon-instagram-logo"
+                            />
                           </li>
                         </ul>
                       </div>
                     </div>
-                    
                   </div>
                 </div>
               </div>
               <div className="divider d-block d-sm-none" />
-           
             </div>
           </div>
         </div>

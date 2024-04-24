@@ -5369,6 +5369,10 @@ html.ie:not(.edge) .checkbox-group label .check {
   margin-top: 13px
 }
 
+.tt-col {
+  color: #000;
+}
+
 .tt-col-img__top {
   margin-top: 33px
 }
