@@ -23,7 +23,7 @@ export default function Blog() {
                     <div className="blog-obj__wrapper">
                       <div className="blog-obj__data">
                         <div className="tt-col">
-                          <div className="data__time">6 May, 2020</div>
+                          <div className="data__time">12 April, 2024</div>
                         </div>
                         <div className="tt-col">
                           <div className="data__posted">
@@ -56,11 +56,11 @@ export default function Blog() {
                 <div className="tt-item col-6">
                   <div className="blog-obj">
                     <div className="blog-obj__img">
-                      <a href="blog-item">
+                      <a href="maximizing-energy-efficiency-our-eco-friendly-electrical-solutions">
                         <img
                           src="data:./template/image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                           className="lazyload"
-                          data-src="./template/images/blog/blog_img01.jpg"
+                          data-src="./template/images/blog/blog_img02-02.jpg"
                           alt="true"
                         />
                       </a>
@@ -68,29 +68,25 @@ export default function Blog() {
                     <div className="blog-obj__wrapper">
                       <div className="blog-obj__data">
                         <div className="tt-col">
-                          <div className="data__time">6 May, 2020</div>
+                          <div className="data__time">24 April, 2024</div>
                         </div>
                         <div className="tt-col">
                           <div className="data__posted">
                             Posted by: <a href="#">Admin</a>
                           </div>
                         </div>
-                        <div className="tt-col">
-                          <div className="data__comments">3 Comments</div>
-                        </div>
+                        
                       </div>
                       <h3 className="blog-obj__title">
-                        <a href="blog-item">Outdoor and Motion Lighting</a>
+                        <a href="maximizing-energy-efficiency-our-eco-friendly-electrical-solutions">Maximizing Energy Efficiency:<br/>
+                         <span style={{fontSize: "20px"}}>Our Eco-Friendly Electrical Solutions</span></a>
                       </h3>
                       <p>
-                        Electricity is arguably the most valuable resource we
-                        have in our modern society. Without electricity, most of
-                        the things we do and rely on on a daily basis wouldn’t
-                        be there.
+                       At Popular Electrical & Security Services, we're committed to providing sustainable electrical solutions that reduce energy consumption and carbon footprint while maximizing efficiency. Here's how we're leading the charge towards a greener future 
                       </p>
                       <div className="blog-obj__row-btn">
                         <a
-                          href="blog-item"
+                          href="maximizing-energy-efficiency-our-eco-friendly-electrical-solutions"
                           className="tt-btn btn__color01"
                         >
                           <span className="icon-lightning" />
