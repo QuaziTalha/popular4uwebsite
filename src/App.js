@@ -7,7 +7,8 @@ import Product from "./Pages/Product";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Productdetails from "./Pages/Productdetails";
-import Blog from "./Pages/Blog";
+import Blogs from "./Pages/Blogs";
+import Blog1 from "./Pages/Blog1";
 import Blogitem from "./Pages/Blogitem";
 import Contactus from "./Pages/Contactus";
 import Services from "./Pages/Services";
@@ -46,6 +47,8 @@ class App extends Component {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/blog" element={<Blogs />} />
+            <Route path="/enhancing-safety-and-efficiency-explore-our-electrical-and-security-services" element={<Blog1 />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
           <Footer />
