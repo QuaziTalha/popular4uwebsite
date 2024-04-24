@@ -1,6 +1,19 @@
 import { Component } from "react";
 
 class About extends Component {
+  componentDidMount() {
+    const cards = document.querySelectorAll(".tt-layout02", "tt-wrapper");
+    let maxHeight = 0;
+    cards.forEach((card) => {
+      const cardHeight = card.clientHeight;
+      if (cardHeight > maxHeight) {
+        maxHeight = cardHeight;
+      }
+    });
+    cards.forEach((card) => {
+      card.style.height = maxHeight + "px";
+    });
+  }
   render() {
     return (
       <div>
@@ -20,7 +33,10 @@ class About extends Component {
                     <img src="./template/images/layout01-img03-02.jpg" alt />
                   </div>
                 </div>
-                <div className="layout01__content pl-50 ">
+                <div
+                  className="layout01__content  "
+                  style={{ marginRight: "40px" }}
+                >
                   <div className="layout01__content-wrapper">
                     <div className="section-title text-left">
                       {/* <div className="section-title__01">
@@ -63,11 +79,144 @@ class About extends Component {
                             <i className="icon-1895474" />
                           </div>
                           <div className="tt-box04__content">
-                            <div className="tt-title">15</div>
+                            <div className="tt-title">15+</div>
                             <p>Years of Experience</p>
                           </div>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="section-indent">
+            <div className="container">
+              <div className="section-title max-width-01">
+                <div className="section-title__01">
+                  Save on the Service You Need
+                </div>
+                <div className="section-title__02">Core Values</div>
+              </div>
+              <div className="tt-block-marker">
+                <img
+                  className="bg-marker01 block-marker__obj lazyload"
+                  src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                  data-src="./template/images/bg_marker02.png"
+                  alt
+                />
+                <div
+                  className="tt-layout02-wrapper slick-type01 row"
+                  data-slick='{
+						"slidesToShow": 3,
+						"slidesToScroll": 2,
+						"autoplaySpeed": 5000,
+						"responsive": [
+							{
+								"breakpoint": 1230,
+								"settings": {
+									"slidesToShow": 2,
+									"slidesToScroll": 2
+								}
+							},
+							{
+								"breakpoint": 767,
+								"settings": {
+									"slidesToShow": 1,
+									"slidesToScroll": 1
+								}
+							}
+						]
+					}'
+                >
+                  <div className="item col-md-4">
+                    <div className="tt-layout02">
+                      <div className="tt-layout02__icon">
+                        <span className="icon-867257" />
+                      </div>
+                      <div className="tt-layout02__title">Excellence</div>
+                      <p>
+                        We strive for excellence in everything we do, delivering
+                        top-quality workmanship and service that surpasses
+                        expectations.
+                      </p>
+                      <hr className="tt-layout02__hr" />
+                      <div className="tt-layout02__link"></div>
+                    </div>
+                  </div>
+                  <div className="item col-md-4">
+                    <div className="tt-layout02">
+                      <div className="tt-layout02__icon">
+                        <span className="icon-867257" />
+                      </div>
+                      <div className="tt-layout02__title">Integrity</div>
+                      <p>
+                        We uphold the highest standards of integrity and honesty
+                        in our interactions with clients, partners, and team
+                        members.
+                      </p>
+                      <hr className="tt-layout02__hr" />
+                      <div className="tt-layout02__link"></div>
+                    </div>
+                  </div>
+                  <div className="item col-md-4">
+                    <div className="tt-layout02">
+                      <div className="tt-layout02__icon">
+                        <span className="icon-867257" />
+                      </div>
+                      <div className="tt-layout02__title">Reliability</div>
+                      <p>
+                        We uphold the highest standards of integrity and honesty
+                        in our interactions with clients, partners, and team
+                        members.
+                      </p>
+                      <hr className="tt-layout02__hr" />
+                      <div className="tt-layout02__link"></div>
+                    </div>
+                  </div>
+                  <div className="item col-md-4">
+                    <div className="tt-layout02">
+                      <div className="tt-layout02__icon">
+                        <span className="icon-867257" />
+                      </div>
+                      <div className="tt-layout02__title">Innovation</div>
+                      <p>
+                        We embrace innovation and stay at the forefront of
+                        technological advancements to provide cutting-edge
+                        solutions.
+                      </p>
+                      <hr className="tt-layout02__hr" />
+                      <div className="tt-layout02__link"></div>
+                    </div>
+                  </div>
+                  <div className="item col-md-4">
+                    <div className="tt-layout02">
+                      <div className="tt-layout02__icon">
+                        <span className="icon-867257" />
+                      </div>
+                      <div className="tt-layout02__title">Customer Focus</div>
+                      <p>
+                        We prioritize our customers' needs and work
+                        collaboratively to deliver customized solutions that
+                        address their unique requirements.
+                      </p>
+                      <hr className="tt-layout02__hr" />
+                      <div className="tt-layout02__link"></div>
+                    </div>
+                  </div>
+                  <div className="item col-md-4">
+                    <div className="tt-layout02">
+                      <div className="tt-layout02__icon">
+                        <span className="icon-867257" />
+                      </div>
+                      <div className="tt-layout02__title">Safety</div>
+                      <p>
+                        We prioritize safety in all aspects of our work,
+                        implementing best practices to protect our employees,
+                        clients, and communities.
+                      </p>
+                      <hr className="tt-layout02__hr" />
+                      <div className="tt-layout02__link"></div>
                     </div>
                   </div>
                 </div>
@@ -87,7 +236,7 @@ class About extends Component {
                 <div className="layout01__content">
                   <div className="layout01__content-wrapper">
                     <div className="section-title text-left">
-                      <div className="section-title__01">Mission:</div>
+                      <div className="section-title__01">Mission</div>
                       <div className="section-title__02">
                         We are a Qualified &amp; Certified Electrical Company
                       </div>
@@ -101,41 +250,24 @@ class About extends Component {
                       the evolving needs of our customers and exceed their
                       expectations.
                     </p>
-                    <ul className="js-wrapper-gallery gallery01 gallery01-top">
-                      <li>
-                        <a
-                          className="tt-gallery"
-                          href="./template/images/certificates-img01_large.jpg"
-                        >
-                          <img
-                            src="./template/images/certificates-img01.jpg"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="tt-gallery"
-                          href="./template/images/certificates-img02_large.jpg"
-                        >
-                          <img
-                            src="./template/images/certificates-img02.jpg"
-                            alt
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="tt-gallery"
-                          href="./template/images/certificates-img03_large.jpg"
-                        >
-                          <img
-                            src="./template/images/certificates-img03.jpg"
-                            alt
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                  </div>
+                  {/* Add inline style for space */}
+                  <div style={{ marginTop: "20px" }}></div>
+                  <div className="layout01__content-wrapper">
+                    <div className="section-title text-left">
+                      <div className="section-title__01">Vision</div>
+                      <div className="section-title__02">
+                        Lighting the Way, Safeguarding Tomorrow
+                      </div>
+                    </div>
+                    <p>
+                      Our vision is to be a leading provider of electrical and
+                      security services, recognized for our exceptional quality,
+                      reliability, and professionalism. We aim to expand our
+                      presence, cultivate long-term partnerships, and continue
+                      setting industry standards through continuous improvement
+                      and customer-centric practices.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -145,9 +277,7 @@ class About extends Component {
             <div className="container container-lg-fluid">
               <div className="section-title max-width-01">
                 <div className="section-title__01">Our Advantages</div>
-                <div className="section-title__02">
-                  Reasons You Should Call Us
-                </div>
+                <div className="section-title__02">Why Choose Us?</div>
                 <div className="section-title__03">
                   Electrician is your single source for a complete range of
                   high-quality electrical services, including design/build,
@@ -157,12 +287,21 @@ class About extends Component {
               <div className="row tt-services-promo__list justify-content-center">
                 <div className="col-sm-6 col-lg-4 tt-item">
                   <div className="tt-services-promo">
-                    <div className="tt-value tt-value__indent">1</div>
+                    <div
+                      className="tt-value tt-value__indent "
+                      style={{ color: "#002244" }}
+                    >
+                      1
+                    </div>
                     <div className="tt-wrapper">
                       <div className="tt-col-icon icon-hours" />
                       <div className="tt-col-layout">
-                        <div className="tt-title">24/7 Emergency Services</div>
-                        <p>24/7 emergency electrician you can trust.</p>
+                        <div className="tt-title">Experienced Team</div>
+                        <p className="tt-para">
+                          Our team of 20+ skilled electricians, technicians, and
+                          helpers is committed to delivering excellence on every
+                          project.
+                        </p>
                       </div>
                     </div>
                     <div className="tt-bg-marker" />
@@ -170,14 +309,18 @@ class About extends Component {
                 </div>
                 <div className="col-sm-6 col-lg-4 tt-item">
                   <div className="tt-services-promo">
-                    <div className="tt-value">2</div>
+                    <div className="tt-value" style={{ color: "#002244" }}>
+                      2
+                    </div>
                     <div className="tt-wrapper">
                       <div className="tt-col-icon icon-tool2" />
                       <div className="tt-col-layout">
-                        <div className="tt-title">Free Estimates</div>
-                        <p>
-                          Yes, we offer free estimates for electrical additions
-                          or replacements.
+                        <div className="tt-title">Quality Assurance</div>
+                        <p className="tt-para">
+                          {" "}
+                          We adhere to strict quality standards and use premium
+                          materials to ensure reliable and durable
+                          installations.
                         </p>
                       </div>
                     </div>
@@ -186,182 +329,61 @@ class About extends Component {
                 </div>
                 <div className="col-sm-6 col-lg-4 tt-item">
                   <div className="tt-services-promo">
-                    <div className="tt-value">3</div>
+                    <div className="tt-value" style={{ color: "#002244" }}>
+                      3
+                    </div>
                     <div className="tt-wrapper">
                       <div className="tt-col-icon icon-price-tag" />
                       <div className="tt-col-layout">
-                        <div className="tt-title">Low Price Guarantee</div>
-                        <p>
-                          We strive to offer the lowest price on the market.
+                        <div className="tt-title">
+                          Customer-Centric Approach:{" "}
+                        </div>
+                        <p className="tt-para">
+                          We prioritize customer satisfaction, offering tailored
+                          solutions that meet specific needs and budgets.
                         </p>
                       </div>
                     </div>
                     <div className="tt-bg-marker" />
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="section-indent">
-            <div
-              className="tt-box01 js-init-bg"
-              style={{
-                backgroundImage:
-                  'url("./template/images/box01-bg-desktop.jpg")',
-              }}
-            >
-              <div className="container">
-                <div className="tt-box01__holder">
-                  <div className="tt-box01__description">
-                    <h4 className="tt-box01__title">
-                      Do you <span className="tt-base-color">Need Help</span>
-                      <br />
-                      With Electrical
-                      <br />
-                      Maintenance?
-                    </h4>
-                    <p>
-                      Our electrical repair and service options are proudly
-                      offered to clients. Give us a call today to schedule a
-                      free service estimate!
-                    </p>
-                    <div className="tt-row-btn">
-                      <a
-                        className="tt-btn btn__color01"
-                        href="tel:1(800)7654321"
-                      >
-                        <span className="icon-telephone" />
-                        Give Us a Call
-                      </a>
-                      <a
-                        className="tt-btn btn__color02"
-                        data-toggle="modal"
-                        data-target="#modalMakeAppointment"
-                        href="#"
-                      >
-                        <span className="icon-lightning" />
-                        Free Estimate
-                      </a>
+                <div className="col-sm-6 col-lg-4 tt-item">
+                  <div className="tt-services-promo">
+                    <div className="tt-value" style={{ color: "#002244" }}>
+                      4
                     </div>
+                    <div className="tt-wrapper">
+                      <div className="tt-col-icon icon-price-tag" />
+                      <div className="tt-col-layout">
+                        <div className="tt-title">Safety First</div>
+                        <p className="tt-para">
+                          Safety is our top priority, and we implement best
+                          practices to protect our team and clients throughout
+                          every project.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="tt-bg-marker" />
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="section-indent">
-            <div className="container container-lg-fluid">
-              <div className="section-title max-width-01">
-                <div className="section-title__01">Our Team</div>
-                <div className="section-title__02">
-                  Fully Qualified Electricians
-                </div>
-                <div className="section-title__03">
-                  All our personnel operate within an Integrated Management
-                  System to ensure the delivery of services that are at an
-                  exception level of quality, reliability, and value
-                </div>
-              </div>
-              <div
-                className="tt-box05_wrapper row slick-type01 slick-type01"
-                data-slick='{
-					"slidesToShow": 3,
-					"slidesToScroll": 2,
-					"responsive": [
-						{
-							"breakpoint": 750,
-							"settings": {
-								"slidesToShow": 2
-							}
-						},
-						{
-							"breakpoint": 546,
-							"settings": {
-								"slidesToShow": 1,
-								"slidesToScroll": 1
-							}
-						}
-					]
-				}'
-              >
-                <div className="col-md-4">
-                  <a href="testimonials.html" className="tt-box05">
-                    <div className="tt-box05__img">
-                      <img
-                        src="./template/images/box04-img01.jpg"
-                        className="tt-img-main"
-                        alt
-                      />
-                      <img
-                        src="./template/images/mask-img02.png"
-                        className="tt-img-mask"
-                        alt
-                      />
+                <div className="col-sm-6 col-lg-4 tt-item">
+                  <div className="tt-services-promo">
+                    <div className="tt-value" style={{ color: "#002244" }}>
+                      5
                     </div>
-                    <div className="tt-box05__title">
-                      <div className="tt-text-01">David Anthony</div>
-                      <div className="tt-text-02">Master Electrician</div>
+                    <div className="tt-wrapper">
+                      <div className="tt-col-icon icon-price-tag" />
+                      <div className="tt-col-layout">
+                        <div className="tt-title">Innovation</div>
+                        <p className="tt-para">
+                          We stay updated with the latest industry trends and
+                          technologies to provide innovative solutions that
+                          enhance efficiency and security.
+                        </p>
+                      </div>
                     </div>
-                  </a>
-                </div>
-                <div className="col-md-4">
-                  <a href="testimonials.html" className="tt-box05">
-                    <div className="tt-box05__img">
-                      <img
-                        src="./template/images/box04-img02.jpg"
-                        className="tt-img-main"
-                        alt
-                      />
-                      <img
-                        src="./template/images/mask-img02.png"
-                        className="tt-img-mask"
-                        alt
-                      />
-                    </div>
-                    <div className="tt-box05__title">
-                      <div className="tt-text-01">James Campbell</div>
-                      <div className="tt-text-02">Office Manager</div>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-md-4">
-                  <a href="testimonials.html" className="tt-box05">
-                    <div className="tt-box05__img">
-                      <img
-                        src="./template/images/box04-img03.jpg"
-                        className="tt-img-main"
-                        alt
-                      />
-                      <img
-                        src="./template/images/mask-img02.png"
-                        className="tt-img-mask"
-                        alt
-                      />
-                    </div>
-                    <div className="tt-box05__title">
-                      <div className="tt-text-01">Charles Shepard</div>
-                      <div className="tt-text-02">Electrician</div>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-md-4">
-                  <a href="testimonials.html" className="tt-box05">
-                    <div className="tt-box05__img">
-                      <img
-                        src="./template/images/box04-img01.jpg"
-                        className="tt-img-main"
-                        alt
-                      />
-                      <img
-                        src="./template/images/mask-img02.png"
-                        className="tt-img-mask"
-                        alt
-                      />
-                    </div>
-                    <div className="tt-box05__title">
-                      <div className="tt-text-01">David Anthony</div>
-                      <div className="tt-text-02">Master Electrician</div>
-                    </div>
-                  </a>
+                    <div className="tt-bg-marker" />
+                  </div>
                 </div>
               </div>
             </div>
