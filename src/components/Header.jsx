@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Contactus from "../Pages/Contactus";
+import Contactus from "../Pages/Contact";
 
 function Header() {
   return (
@@ -55,11 +55,12 @@ function Header() {
                 <div className="tt-holder">
                   <div className="tt-col-logo">
                     {/* logo */}
+                    <a href="./">
                     <img
                       src="./template/images/logo.png"
                       style={{ width: "50%" }}
                       alt="popular_logo"
-                    />
+                    /></a>
                   </div>
                   <div className="tt-col-objects tt-col-wide text-center">
                     {/* desktop-nav */}
@@ -110,12 +111,11 @@ function Header() {
                     </div>
                     <div className="tt-col__item d-none d-lg-block">
                       <a
-                        href="#"
+                        href="https://api.whatsapp.com/send?phone=917972144809&text=I%20would%20like%20a%20Quotation%20for%20...."
                         className="tt-btn btn__color01"
-                        data-toggle="modal"
-                        data-target="#modalMakeAppointment"
+                       
                       >
-                        <span className="icon-lightning" />
+                    
                         Get a Qoute
                       </a>
                     </div>

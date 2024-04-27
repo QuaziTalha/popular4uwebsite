@@ -21,22 +21,22 @@ class Home extends Component {
               <div className="slide">
                 <picture className="img--holder">
                   <source
-                    srcSet="./template/images/mainslide-01-sm.jpg"
+                    srcSet="./template/images/mainslide-01.jpg"
                     media="(max-width: 767px)"
                     type="image/webp"
                   />
                   <source
-                    srcSet="./template/images/mainslide-01-sm.jpg"
+                    srcSet="./template/images/mainslide-01.jpg"
                     media="(max-width: 767px)"
                     type="image/jpg"
                   />
                   <source
-                    srcSet="./template/images/mainslide-01-md.jpg"
+                    srcSet="./template/images/mainslide-01.jpg"
                     media="(max-width: 1024px)"
                     type="image/webp"
                   />
                   <source
-                    srcSet="./template/images/mainslide-01-md.jpg"
+                    srcSet="./template/images/mainslide-01.jpg"
                     media="(max-width: 1024px)"
                     type="image/jpg"
                   />
@@ -70,22 +70,22 @@ class Home extends Component {
               <div className="slide">
                 <picture className="img--holder">
                   <source
-                    srcSet="./template/images/mainslide-02-sm.jpg"
+                    srcSet="./template/images/mainslide-02.jpg"
                     media="(max-width: 767px)"
                     type="image/webp"
                   />
                   <source
-                    srcSet="./template/images/mainslide-02-sm.jpg"
+                    srcSet="./template/images/mainslide-02.jpg"
                     media="(max-width: 767px)"
                     type="image/jpg"
                   />
                   <source
-                    srcSet="./template/images/mainslide-02-md.jpg"
+                    srcSet="./template/images/mainslide-02.jpg"
                     media="(max-width: 1024px)"
                     type="image/webp"
                   />
                   <source
-                    srcSet="./template/images/mainslide-02-md.jpg"
+                    srcSet="./template/images/mainslide-02.jpg"
                     media="(max-width: 1024px)"
                     type="image/jpg"
                   />
@@ -119,22 +119,22 @@ class Home extends Component {
               <div className="slide">
                 <picture className="img--holder">
                   <source
-                    srcSet="./template/images/mainslide-03-sm.jpg"
+                    srcSet="./template/images/mainslide-03.jpg"
                     media="(max-width: 767px)"
                     type="image/webp"
                   />
                   <source
-                    srcSet="./template/images/mainslide-03-sm.jpg"
+                    srcSet="./template/images/mainslide-03.jpg"
                     media="(max-width: 767px)"
                     type="image/jpg"
                   />
                   <source
-                    srcSet="./template/images/mainslide-03-md.jpg"
+                    srcSet="./template/images/mainslide-03.jpg"
                     media="(max-width: 1024px)"
                     type="image/webp"
                   />
                   <source
-                    srcSet="./template/images/mainslide-03-md.jpg"
+                    srcSet="./template/images/mainslide-03.jpg"
                     media="(max-width: 1024px)"
                     type="image/jpg"
                   />

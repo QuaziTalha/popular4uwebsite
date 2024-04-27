@@ -1,6 +1,7 @@
 export default function Contactus() {
   return (
     <div>
+      <link rel="stylesheet" href="./template/css/page__contact.css" />
       <div>
         <div
           className="tt-breadcrumb"
@@ -20,10 +21,10 @@ export default function Contactus() {
       </div>
 
       <main id="tt-pageContent">
-        <div className="map-contact" id="map-contact" />
-        <div className="section-indent-extra">
+        
+        <div className="section-indent-extra" style={{marginTop: "0px"}}>
           <div className="container container-lg-fluid">
-            <div className="section__wrapper02 tt-contact-wrapper">
+            <div className="section__wrapper02 tt-contact-wrapper" style={{marginTop: "0px"}}>
               <div className="row justify-content-center">
                 <div className="col-sm-6 col-md-4">
                   <div className="tt-contact">
@@ -33,11 +34,7 @@ export default function Contactus() {
                     <div className="tt-content">
                       <div className="tt-title">Address:</div>
                       <address>
-                        Electrician Company
-                        <br />
-                        8494 Signal Hill Road Manassas,
-                        <br />
-                        VA, 20110
+                      Vaishali Nagar, Jaswantsingpura, CIDCO N-8, Azad Chowk to TV Center Road
                       </address>
                     </div>
                   </div>
@@ -45,13 +42,11 @@ export default function Contactus() {
                 <div className="col-sm-6 col-md-4">
                   <div className="tt-contact">
                     <div className="tt-icon">
-                      <i className="icon-clock-circular-outline-1" />
+                      <i className="icon-email" />
                     </div>
                     <div className="tt-content">
-                      <div className="tt-title">Work Hours:</div>
-                      Mon-Fri 08:00 AM - 05:00 PM
-                      <br />
-                      Sat-Sun: Emergency only
+                      <div className="tt-title">Email:</div>
+                      popularelectricalsarvices@gmail.com
                     </div>
                   </div>
                 </div>
@@ -63,15 +58,11 @@ export default function Contactus() {
                     <div className="tt-content">
                       <div className="tt-title">Phone Numbers:</div>
                       <address>
-                        <a href="tel:1(800)7654321">
-                          1 (800) 765-43-21 (Appointments)
+                        <a href="tel:+91 7972 144 809">
+                        +91 7972 144 809
                         </a>
                       </address>
-                      <address>
-                        <a href="tel:1(800)7654322">
-                          1 (800) 765-43-22 (Office)
-                        </a>
-                      </address>
+                   
                     </div>
                   </div>
                 </div>

@@ -335,9 +335,8 @@ class About extends Component {
                     <div className="tt-wrapper">
                       <div className="tt-col-icon icon-price-tag" />
                       <div className="tt-col-layout">
-                        <div className="tt-title">
-                          Customer-Centric Approach:{" "}
-                        </div>
+                     <div className="tt-title">Client <br />Focused </div>
+
                         <p className="tt-para">
                           We prioritize customer satisfaction, offering tailored
                           solutions that meet specific needs and budgets.

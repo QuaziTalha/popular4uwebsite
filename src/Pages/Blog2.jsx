@@ -106,33 +106,35 @@ Explore Our Electrical and Security Services</b></li>
     Whether you're planning a new construction project, need maintenance services, or want to enhance security at your property, Popular Electrical & Security Services is here to help. Contact us today to discuss your requirements and discover how we can partner with you to achieve your electrical and security goals. <br /> Experience the difference with Popular Electrical & Security Services – your trusted partner for superior electrical and security solutions.
   </p>
   <div className="blog-single__meta">
-    <div className="tt-col">
-      <ul className="tt-list02">
-        <li>
-          <a href="#">Electrical</a>
-        </li>
-        <li>
-          <a href="#">Upgrades</a>
-        </li>
-        <li>
-          <a href="#">Repairs</a>
-        </li>
-      </ul>
-    </div>
-    <div className="tt-col">
-      <ul className="tt-social">
-        <li>
-          <a href="#" className="icon-twitter-logo-button" />
-        </li>
-        <li>
-          <a href="#" className="icon-facebook-logo-button" />
-        </li>
-        <li>
-          <a href="#" className="icon-instagram-logo" />
-        </li>
-      </ul>
-    </div>
-  </div>
+                      <div className="tt-col">
+                        <a href="tel:+917972144809" style={{ color: "black" }}>
+                          <span className="icon-telephone"></span>
+                          <b>+91 7972 144 809</b>
+                        </a>
+                      </div>
+                      <div className="tt-col">
+                        <ul className="tt-social">
+                          <li>
+                            <a
+                              href="https://x.com/Popular4u_in?t=UcIT14BKpBOwGpe8nJjxVA&s=09"
+                              className="icon-twitter-logo-button"
+                            />
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.facebook.com/share/dEUURYQZzdhZs1aL/?mibextid=qi2Omg"
+                              className="icon-facebook-logo-button"
+                            />
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.instagram.com/popular4u.in?utm_source=qr&igsh=MzNlNGNkZWQ4Mg=="
+                              className="icon-instagram-logo"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
 </div>
 
                 </div>

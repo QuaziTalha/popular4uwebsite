@@ -60,19 +60,19 @@ function Footer() {
                     <nav className="f-nav" id="f-nav">
                       <ul>
                         <li>
-                          <a href="#">Home</a>
+                          <a href="./">Home</a>
                         </li>
                         <li>
-                          <a href="#">About Us</a>
+                          <a href="about">About Us</a>
                         </li>
                         <li>
-                          <a href="#">Blog</a>
+                          <a href="blog">Blog</a>
                         </li>
                         <li>
-                          <a href="#">Services</a>
+                          <a href="services">Services</a>
                         </li>
                         <li>
-                          <a href="#">Contacts</a>
+                          <a href="contact">Contacts</a>
                         </li>
                       </ul>
                     </nav>
@@ -230,8 +230,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <a href="#" id="js-backtotop" className="tt-back-to-top">
-        <i className="icon-lightning" />
+      <a href="https://api.whatsapp.com/send?phone=917972144809&text=I%20would%20like%20a%20Quotation%20for%20...." id="js-backtotop" className="tt-back-to-top">
+     <img src="./template/images/whatsapp.svg" style={{width:"60%", position:"absolute"}} alt="whatsapp" />
       </a>
     </div>
   );

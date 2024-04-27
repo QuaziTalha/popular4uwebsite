@@ -11,7 +11,7 @@ import Blogs from "./Pages/Blogs";
 import Blog1 from "./Pages/Blog1";
 import Blog2 from "./Pages/Blog2";
 import Blogitem from "./Pages/Blogitem";
-import Contactus from "./Pages/Contactus";
+import Contactus from "./Pages/Contact";
 import Services from "./Pages/Services";
 
 const NotFoundPage = () => {
@@ -49,6 +49,7 @@ class App extends Component {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blogs />} />
+            <Route path="/contact" element={<Contactus />} />
             <Route path="/enhancing-safety-and-efficiency-explore-our-electrical-and-security-services" element={<Blog1 />} />
             <Route path="/maximizing-energy-efficiency-our-eco-friendly-electrical-solutions" element={<Blog2 />} />
             <Route path="*" element={<NotFoundPage />} />
