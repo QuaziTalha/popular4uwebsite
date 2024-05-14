@@ -80,9 +80,7 @@ function Footer() {
                   <div className="col-sm-6 col-md-7">
                     <ul className="f-info-icon">
                       <li>
-                        <span className="icon-map-marker"></span> Vaishali
-                        Nagar, Jaswantsingpura, CIDCO N-8, Azad Chowk to TV
-                        Center Road
+                        <span className="icon-map-marker"></span> Maaz Complex, Juna Bazar, Beside B.M.C Bank, Aurangabad - 431001
                       </li>
 
                       <li>

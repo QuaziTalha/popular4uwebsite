@@ -34,7 +34,7 @@ export default function Contactus() {
                     <div className="tt-content">
                       <div className="tt-title">Address:</div>
                       <address>
-                      Vaishali Nagar, Jaswantsingpura, CIDCO N-8, Azad Chowk to TV Center Road
+                      Maaz Complex, Juna Bazar, Beside B.M.C Bank, Aurangabad - 431001
                       </address>
                     </div>
                   </div>
