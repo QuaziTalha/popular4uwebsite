@@ -24,8 +24,7 @@ function Header() {
                   <div className="h-info01">
                     <div className="tt-item">
                       <address>
-                        <span className="icon-map-marker" /> Vaishali Nagar,
-                        Jaswantsingpura, CIDCO N-8, Azad Chowk to TV Center Road
+                        <span className="icon-map-marker" />Maaz Complex, Juna Bazar, Beside B.M.C Bank, Aurangabad - 431001
                       </address>
                     </div>
                   </div>
